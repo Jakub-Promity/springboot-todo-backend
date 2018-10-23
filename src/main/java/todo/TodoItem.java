@@ -16,6 +16,10 @@ public class TodoItem {
     private String content;
     private boolean isDone;
 
+    public long getId() {
+        return id;
+    }
+
     public long getRank() {
         return rank;
     }
